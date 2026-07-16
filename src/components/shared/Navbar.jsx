@@ -4,6 +4,7 @@ import { BsCart2 } from 'react-icons/bs';
 import { IoHomeOutline } from 'react-icons/io5';
 import { VscOpenInProduct } from 'react-icons/vsc';
 import NavLink from './NavLink';
+import Image from 'next/image';
 
 const Navbar = () => {
     return (
@@ -24,7 +25,8 @@ const Navbar = () => {
                             <li><NavLink href={'/cart'}><BsCart2 />Cart</NavLink></li>
                         </ul>
                     </div>
-                    <Link href={'/'}>
+                    <Link href={'/'} className='flex items-center gap-4'>
+                    <Image src={'/images/logo.png'} alt='logo' width={60} height={60} className='object-cover rounded-full'/>
                     <div className='text-3xl font-bold'>Style<span className='text-[#244D3F]'>Hub</span></div>
                     </Link>
                 </div>
@@ -37,7 +39,7 @@ const Navbar = () => {
                             <li><NavLink href={'/cart'}><BsCart2 />Cart</NavLink></li>
                     </ul>
                 </div>
-                <div className="navbar-end">
+                <div className=" hidden sm:flex navbar-end">
                     <input type="text" placeholder="Search Products" className="input" />
                 </div>
             </div>
