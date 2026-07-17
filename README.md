@@ -40,7 +40,7 @@ StyleHub is a modern fashion e-commerce frontend built with Next.js. It provides
 Clone the repository
 
 ```bash
-git clone https://github.com/your-username/stylehub.git
+git clone https://github.com/Eva-004/stylehub.git
 ```
 
 Go to the project folder
