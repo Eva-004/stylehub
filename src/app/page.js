@@ -1,5 +1,6 @@
 import Banner from "@/components/homePage/Banner";
 import NewArrivals from "@/components/homePage/NewArrivals";
+import PopularCategories from "@/components/homePage/PopularCategories";
 import { getProductData } from "@/lib/fetchData";
 
 
@@ -12,6 +13,7 @@ export default async function Home() {
    <div className="max-w-7xl mx-auto">
         <Banner/>
         <NewArrivals newArrivals={newArrivals}/>
+        <PopularCategories products={products}/>
    </div>
   );
 }

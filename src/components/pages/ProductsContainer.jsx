@@ -1,12 +1,16 @@
 "use client";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { motion } from "framer-motion";
 import ProductCard from "../cards/ProductCard";
 
-const ProductsContainer = ({ products }) => {
+const ProductsContainer = ({ products, defaultCategory }) => {
     const [search, setSearch] = useState("");
-    const [category, setCategory] = useState("All");
+    const [category, setCategory] = useState(defaultCategory);
     const [sortBy, setSortBy] = useState("");
+
+    useEffect(() => {
+  setCategory(defaultCategory);
+}, [defaultCategory]);
 
     const categories = [
         "All",

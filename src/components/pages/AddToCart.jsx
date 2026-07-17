@@ -7,7 +7,7 @@ import { toast } from 'react-toastify';
 const AddToCart = ({expectedProducts}) => {
     const { addToCart, cart } = useCart();
   const handleAddToCart =(expectedProducts)=>{
-       addToCart([...cart,expectedProducts]);
+       addToCart(expectedProducts);
        toast.success("Product added to cart successfully!")
   }
     return (
