@@ -4,7 +4,7 @@
     "name": "Classic Cotton Panjabi",
     "category": "Panjabi",
     "price": 1490,
-    "image": "https://desire.com.bd/product/rr-485/?srsltid=AfmBOoo0ZGO8WWnqSEqCwdRyM8vMPsV-IGByI0KOlt0rLsHoi4DoC06L",
+    "image": "https://www.potulifestyle.com/wp-content/uploads/2025/03/3-7.png",
     "rating": 4.5,
     "colors": ["White", "Navy"],
     "sizes": ["M", "L", "XL"],
@@ -61,12 +61,12 @@
   },
   {
     "id": 6,
-    "name": "Formal White Shirt",
+    "name": "Formal  Shirt",
     "category": "Shirt",
     "price": 1590,
     "image": "https://images.unsplash.com/photo-1596755094514-f87e34085b2c?auto=format&fit=crop&w=600&q=80",
     "rating": 4.6,
-    "colors": ["White"],
+    "colors": ["White, Black"],
     "sizes": ["M", "L", "XL"],
     "inStock": true,
     "description": "Classic formal shirt for office and business meetings."
