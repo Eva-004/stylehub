@@ -9,6 +9,7 @@
     "colors": ["White", "Navy"],
     "sizes": ["M", "L", "XL"],
     "inStock": true,
+    "isNew": true,
     "description": "Premium cotton Panjabi perfect for traditional occasions."
   },
   {
@@ -21,6 +22,7 @@
     "colors": ["Blue", "Black"],
     "sizes": ["30", "32", "34", "36"],
     "inStock": true,
+    "isNew": false,
     "description": "Comfortable stretch denim jeans for everyday wear."
   },
   {
@@ -33,6 +35,7 @@
     "colors": ["Black", "White", "Gray"],
     "sizes": ["S", "M", "L", "XL"],
     "inStock": true,
+    "isNew": false,
     "description": "Soft cotton oversized t-shirt with a modern fit."
   },
   {
@@ -45,6 +48,7 @@
     "colors": ["Pink", "Blue"],
     "sizes": ["S", "M", "L"],
     "inStock": true,
+    "isNew": true,
     "description": "Elegant floral kurti for casual and festive wear."
   },
   {
@@ -57,6 +61,7 @@
     "colors": ["Gray", "Black"],
     "sizes": ["M", "L", "XL"],
     "inStock": false,
+    "isNew": false,
     "description": "Warm fleece hoodie with a comfortable fit."
   },
   {
@@ -69,6 +74,7 @@
     "colors": ["White, Black"],
     "sizes": ["M", "L", "XL"],
     "inStock": true,
+    "isNew": true,
     "description": "Classic formal shirt for office and business meetings."
   },
   {
@@ -81,6 +87,7 @@
     "colors": ["White", "Brown"],
     "sizes": ["40", "41", "42", "43"],
     "inStock": true,
+    "isNew": true,
     "description": "Premium leather sneakers with all-day comfort."
   },
   {
@@ -93,6 +100,7 @@
     "colors": ["Brown", "Black"],
     "sizes": ["Standard"],
     "inStock": true,
+    "isNew": true,
     "description": "Stylish handbag with spacious compartments."
   },
   {
@@ -105,6 +113,7 @@
     "colors": ["Black", "Gray"],
     "sizes": ["M", "L", "XL"],
     "inStock": true,
+    "isNew": false,
     "description": "Comfortable joggers for workouts and casual wear."
   },
   {
@@ -117,6 +126,7 @@
     "colors": ["Silver", "Black"],
     "sizes": ["Standard"],
     "inStock": true,
+    "isNew": false,
     "description": "Elegant wristwatch with a timeless design."
   },
   {
@@ -129,6 +139,7 @@
     "colors": ["Red", "Green"],
     "sizes": ["S", "M", "L"],
     "inStock": true,
+    "isNew": true,
     "description": "Flowy maxi dress for casual and party wear."
   },
   {
@@ -141,6 +152,7 @@
     "colors": ["Black", "Navy", "White"],
     "sizes": ["Free Size"],
     "inStock": true,
+    "isNew": true,
     "description": "Adjustable baseball cap with breathable fabric."
   }
 ]

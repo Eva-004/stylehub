@@ -18,12 +18,31 @@ const ProductCard = ({ product }) => {
                     className="w-full h-72 object-cover transition-transform duration-500 group-hover:scale-110"
                 />
 
-                <Chip
-                    size="sm"
-                    className="absolute top-4 left-4 bg-[#244D3F] text-white transition-transform duration-300 group-hover:scale-110"
-                >
-                    NEW
-                </Chip>
+               <div className="flex justify-between">
+                 {product.isNew && (
+                    <Chip
+                        size="sm"
+                        className="absolute top-4 left-4 bg-[#244D3F] text-white transition-transform duration-300 group-hover:scale-110"
+                    >
+                        NEW
+                    </Chip>
+                )}
+                {product.inStock ? (
+                    <Chip
+                        size="sm"
+                        className="absolute top-4 right-4 bg-[#244D3F] text-white"
+                    >
+                        In Stock
+                    </Chip>
+                ) : (
+                    <Chip
+                        size="sm"
+                        className="absolute top-4 right-4 bg-red-600 text-white"
+                    >
+                        Out of Stock
+                    </Chip>
+                )}
+               </div>
             </div>
 
             <div className="flex flex-col flex-1 p-5">

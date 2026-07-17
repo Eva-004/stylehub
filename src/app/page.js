@@ -6,7 +6,7 @@ import { getProductData } from "@/lib/fetchData";
 
 export default async function Home() {
   const products = await getProductData();
-    const newArrivals = products.slice(0, 4);
+    const newArrivals = products.filter(p=> p.isNew).slice(0, 4);
     console.log(newArrivals);
   return (
    <div className="max-w-7xl mx-auto">
