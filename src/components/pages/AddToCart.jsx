@@ -2,12 +2,16 @@
 
 import useCart from '@/hooks/UseCart';
 import { Button } from '@heroui/react';
+import { toast } from 'react-toastify';
 
 const AddToCart = ({expectedProducts}) => {
-    const { addToCart } = useCart();
-
+    const { addToCart, cart } = useCart();
+  const handleAddToCart =(expectedProducts)=>{
+       addToCart([...cart,expectedProducts]);
+       toast.success("Product added to cart successfully!")
+  }
     return (
-        <Button onClick={() => addToCart(expectedProducts)}
+        <Button onClick={() => handleAddToCart(expectedProducts)}
             className={`mt-10 w-full md:w-56 transition-all duration-300 ${expectedProducts.inStock
                 ? "bg-[#244D3F] text-white hover:bg-[#1d3f33] hover:scale-105 hover:shadow-lg"
                 : "bg-gray-400 text-black cursor-not-allowed"
