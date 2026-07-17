@@ -1,36 +1,101 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# StyleHub
 
-## Getting Started
+StyleHub is a modern fashion e-commerce frontend built with Next.js. It provides a clean shopping experience where users can browse products, search, filter, sort, view product details, and manage their shopping cart.
 
-First, run the development server:
+## Live Demo
+
+[https://stylehub-murex.vercel.app](https://stylehub-murex.vercel.app/)
+
+## Features
+
+- Modern and responsive UI
+- Home page with attractive banner
+- Popular Categories section
+- New Arrivals section
+- Product search functionality
+- Category-based filtering
+- Price sorting (Low to High / High to Low)
+- Product details page
+- Add to Cart functionality
+- Increase and decrease product quantity
+- Remove products from cart
+- Order summary with total price calculation
+- Empty cart state
+- Cart data saved using Local Storage
+- Smooth animations with Framer Motion
+
+## Tech Stack
+
+- Next.js
+- React.js
+- Tailwind CSS
+- HeroUI
+- Framer Motion
+- React Icons
+- React Toastify
+
+
+## Installation
+
+Clone the repository
+
+```bash
+git clone https://github.com/your-username/stylehub.git
+```
+
+Go to the project folder
+
+```bash
+cd stylehub
+```
+
+Install dependencies
+
+```bash
+npm install
+```
+
+Run the development server
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+```text
+http://localhost:3000
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Pages
 
-## Learn More
+- Home
+- Products
+- Product Details
+- Cart
 
-To learn more about Next.js, take a look at the following resources:
+## Future Improvements
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- Wishlist
+- Checkout page
+- User Authentication
+- Payment Integration
+- Product Reviews
+- Backend API Integration
+- Admin Dashboard
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## Author
 
-## Deploy on Vercel
+Foreda Jannat Eva
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+LinkedIn
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+https://www.linkedin.com/in/foreda-jannat-eva/
+
+Portfolio
+
+https://evas-portfolio.vercel.app/
+
+GitHub
+
+https://github.com/Eva-004
