@@ -1,6 +1,9 @@
 import ProductsContainer from "@/components/pages/ProductsContainer";
 import { getProductData } from "@/lib/fetchData";
 
+export const metadata = {
+    title: 'Products | StyleHub',
+}
 
 const ProductsPage = async() => {
     const products = await getProductData();
